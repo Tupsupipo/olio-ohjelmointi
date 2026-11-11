@@ -2,14 +2,15 @@
 ## UML diagram
 ```Mermaid
 classDiagram
-    class Car {
-        -string brand
-        -string model
-        -int yearModel
+    class Car{
+    -string brand
+    -string model
+    -int yearModel
 
-        +Car(const string &brand, const string &model, int yearModel)
-        +printData() void
+    +Car(const string &brand, const string &model, int yearModel)
+    +printData() void
     }
+    
 ```
 
 
